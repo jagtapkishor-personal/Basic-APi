@@ -20,3 +20,5 @@ router.post("/adduser", upload.single("image"), controller.adduser);
 router.get("/getAlluser", controller.getAlluser)
 router.get("/getuserbyid/:id", controller.getUserById);
 router.get("/getuserByName/:name",controller.getUserByName)
+
+module.exports=router;
